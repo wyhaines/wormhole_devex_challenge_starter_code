@@ -1,0 +1,24 @@
+{
+  "mainnet": {},
+  "testnet": {
+    "arbitrum": {
+      "mode": "LOCKING",
+      "rpc": "https://arbitrum-sepolia-rpc.publicnode.com",
+      "privateKey": "0x1a2b3c4d5e6f7890abcdef1234567890abcdef1234567890abcdef1234567890",
+      "tokenAddress": "0x0000000000000000000000001234567890abcdef1234567890abcdef12345678"
+    },
+    "base": {
+      "mode": "BURNING",
+      "rpc": "https://sepolia.base.org",
+      "privateKey": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+      "tokenAddress": "0x0000000000000000000000001234567890abcdef1234567890abcdef12345678"
+    },
+    "solana": {
+      "mode": "BURNING",
+      "rpc": "https://api.testnet.solana.com",
+      "privateKey": "3zYq9x5f5hi77Bq8kDCE6VgqoAqKGSQN87yW9YeGybpNfqKUG4WxnwhboHGUeXjY7g8262mhL1kCCM9yy8uGvdj7",
+      "tokenAddress": "0x0d00c48c6899006b1e3078fca2b17158691c56dc808698d74f54af29f95b98ca"
+    }
+  },
+  "devnet": {}
+}
